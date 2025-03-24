@@ -64,10 +64,7 @@
 
     /* Hero Gradient Background */
     #hero {
-      background: linear-gradient(270deg,
-          #4a0e4e,
-          #1a1a2e,
-          #2e1a4e);
+      background: linear-gradient(270deg, #4a0e4e, #1a1a2e, #2e1a4e);
       background-size: 600% 600%;
       animation: gradientAnimation 15s ease infinite;
     }
@@ -119,7 +116,7 @@
       <a href="#screeners" class="block py-2 px-4 hover:bg-gray-700 transition">Screeners</a>
       <a href="#pricing" class="block py-2 px-4 hover:bg-gray-700 transition">Pricing</a>
       <a href="YOUR_CALENDLY_LINK" target="_blank"
-        class=" calendly-cta block py-2 px-4 bg-pink-500 text-white hover:bg-pink-600 transition">Book Demo</a>
+        class="calendly-cta block py-2 px-4 bg-pink-500 text-white hover:bg-pink-600 transition">Book Demo</a>
     </div>
   </nav>
 
@@ -139,7 +136,7 @@
         </p>
         <div class="space-x-4 mt-4">
           <a href="YOUR_CALENDLY_LINK" target="_blank"
-            class=" calendly-cta inline-block bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-600 transition">Schedule
+            class="calendly-cta inline-block bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-600 transition">Schedule
             a Free Demo</a>
         </div>
       </div>
@@ -154,13 +151,13 @@
     </div>
   </section>
 
+  <!-- Social Proof & Urgency Section -->
   <section class="bg-gradient-to-r from-gray-900 to-blue-900 text-white py-20">
     <div class="container mx-auto text-center px-4">
       <h1 class="text-4xl md:text-6xl font-bold mb-6">
         Turn ₹10k → ₹2.8L/Month<br>
         <span class="text-emerald-400">86.43% Accurate System</span>
       </h1>
-      
       <!-- Social Proof Bar -->
       <div class="flex justify-center items-center mb-8 gap-4">
         <div class="flex items-center">
@@ -173,14 +170,11 @@
           <span>₹8.2Cr+ Verified P&L</span>
         </div>
       </div>
-  
       <!-- Animated CTA -->
-      <button 
-        class="calendly-cta bg-emerald-500 hover:bg-emerald-600 px-12 py-5 rounded-full text-xl 
-               transform hover:scale-105 transition-all duration-300 shadow-2xl">
+      <button
+        class="calendly-cta bg-emerald-500 hover:bg-emerald-600 px-12 py-5 rounded-full text-xl transform hover:scale-105 transition-all duration-300 shadow-2xl">
         🚀 Book Free Demo (3 Slots Left)
       </button>
-  
       <!-- Urgency Badge -->
       <div class="mt-4 text-yellow-300 animate-pulse">
         ⏳ Last 7 Demo Slots This Week
@@ -191,21 +185,18 @@
   <!-- Popup Video Modal -->
   <div id="video-popup" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
     <div class="relative bg-white p-4 rounded-lg modal-content w-11/12 max-w-sm md:max-w-3xl">
-        <button id="close-popup" class="absolute top-2 right-2 text-black text-2xl">
-            ×
-        </button>
-        <div class="relative w-full h-0 pb-[56.25%]">
-            <iframe id="youtube-video"
-                class="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/vkL02OhFOXE?si=aAvxr6Taz7D8-fKX"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
+      <button id="close-popup" class="absolute top-2 right-2 text-black text-2xl">
+        ×
+      </button>
+      <div class="relative w-full h-0 pb-[56.25%]">
+        <iframe id="youtube-video" class="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/vkL02OhFOXE?si=aAvxr6Taz7D8-fKX" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
     </div>
-</div>
-
+  </div>
 
   <!-- Key Features Section -->
   <section id="features" class="py-16 bg-gray-800">
@@ -258,11 +249,6 @@
           <!-- Carousel for performance images (Optional) -->
           <div class="relative">
             <img src="/images/pnl1.png" alt="Performance Snapshot" class="w-full rounded-lg shadow-2xl" />
-            <!-- Uncomment buttons if you add carousel functionality -->
-            <!--
-              <button class="absolute left-0 top-1/2 bg-gray-800 text-white p-2 rounded-full">❮</button>
-              <button class="absolute right-0 top-1/2 bg-gray-800 text-white p-2 rounded-full">❯</button>
-              -->
           </div>
         </div>
         <div class="md:w-1/2 text-center md:text-left space-y-4">
@@ -387,6 +373,19 @@
       </div>
     </div>
   </footer>
+
+  <!-- WhatsApp Floating Button with Glow Effect -->
+  <a href="https://wa.link/5cosl8" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 
+       animate-pulse transition-transform transform hover:scale-110
+       before:content-[''] before:absolute before:inset-0 before:rounded-full before:blur-lg
+       before:bg-green-400 before:opacity-50 before:animate-ping">
+    <svg class="w-6 h-6 relative z-10" fill="currentColor" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M380.9 97.1C339 55.2 283.5 32 224 32 100.3 32 0 132.3 0 256c0 45.3 12.2 89.3 35.3 128L0 480l95.7-35.3c37.4 20.4 80.3 31 125.3 31 123.7 0 224-100.3 224-224 0-59.5-23.2-115-65.1-157.9zM224 438c-36.7 0-72.2-9.6-103.4-27.8l-7.4-4.4-56.9 21.1 21.1-55.7-4.8-7.9C68.4 324.2 58 290.3 58 256 58 148.3 148.3 58 256 58c57.6 0 111.5 22.4 152.1 63.1S438 198.4 438 256c0 107.7-90.3 198-198 198zm101.3-138.7c-5.6-2.8-33.2-16.4-38.4-18.3-5.2-1.8-9-2.8-12.8 2.8-3.8 5.6-14.6 18.3-17.9 22.1-3.2 3.8-6.4 4.3-11.9 1.5-5.6-2.8-23.7-8.7-45.2-27.9-16.7-14.8-27.9-33.1-31-38.7-3.2-5.6-.3-8.7 2.4-11.5 2.5-2.5 5.6-6.4 8.4-9.6 2.8-3.2 3.8-5.6 5.7-9.3 1.9-3.8.9-7-0.5-9.6-1.5-2.5-12.8-30.8-17.6-42.1-4.6-11.2-9.3-9.7-12.8-9.9-3.2-.2-7-0.3-10.7-0.3-3.8 0-10.1 1.5-15.4 7.5-5.3 6-20.3 19.8-20.3 48.4s20.8 56.2 23.7 59.9c2.8 3.8 39.3 60.1 95.4 84.2 13.3 5.7 23.7 9.1 31.8 11.7 13.3 4.2 25.4 3.6 35 2.2 10.7-1.5 33.2-13.5 37.8-26.5 4.6-13.2 4.6-24.6 3.2-26.5-1.3-1.9-5.2-3.2-10.8-5z" />
+    </svg>
+  </a>
+
+
 
   <!-- JavaScript for Mobile Menu, Carousel, Tabs, and Calendly Popup -->
   <script>
